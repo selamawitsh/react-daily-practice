@@ -66,6 +66,10 @@ export default function SmartForm() {
       passwordRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
       return;
     }
+    if (formData.otp.includes("")) {
+      alert("Please complete all OTP fields!");
+      return;
+    }
 
     alert(" Form submitted successfully!");
   };

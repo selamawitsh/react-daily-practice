@@ -1,5 +1,7 @@
 import React from 'react'
 import UseEffectt from './UseEffectt';
+import FetchApi from './FetchApi';
+import UseRefTutorial from './UseRefTutorial'
 
 function Week_three() {
   return (
@@ -11,14 +13,16 @@ function Week_three() {
       </h2>
       <UseEffectt/>
 
-      {/* <h2 className="text-xl font-semibold mt-6 mb-2">Day 2 - Product Grid</h2>
-      <ProductGrid />
+      <h2 className="text-xl font-semibold mt-6 mb-2">
+        Day 2 - Fetch API
+      </h2>
+      <FetchApi />
 
       <h2 className="text-xl font-semibold mt-6 mb-2">
-        Day 3 - Controlled Component
+        Day 3 - UseRef Tutorial
       </h2>
-      <ControlledLogin />
-
+      <UseRefTutorial />
+{/* 
       <h2 className="text-xl font-semibold mt-6 mb-2">Day 4 - Shopping Cart</h2>
       <ShoppingCart /> */}
     </div>
