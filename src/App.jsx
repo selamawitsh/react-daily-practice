@@ -11,6 +11,7 @@ import Week_three from "./pages/Week_three.jsx";
 import UseEffectt from "./pages/UseEffectt.jsx";
 import FetchApi from "./pages/FetchApi.jsx";
 import UseRefTutorial from './pages/UseRefTutorial.jsx'
+import UseContextTutorial from "./pages/UseContextTutorial.jsx";
 
 function App() {
   const [openWeek, setOpenWeek] = useState(null);
@@ -61,7 +62,7 @@ function App() {
         },
         { id: 2, title: "Day 2- Fetch API", element: <FetchApi /> },
         { id: 3, title: "Day 3 - UseRef", element: <UseRefTutorial/> },
-        // { id: 4, title: "Day 4", element: <Week_one /> },
+        { id: 4, title: "Day 4 - Use Context", element: <UseContextTutorial /> },
         // { id: 5, title: "Day 5", element: <Week_one /> },
         // { id: 6, title: "Day 6", element: <Week_one /> },
       ],

@@ -2,6 +2,7 @@ import React from 'react'
 import UseEffectt from './UseEffectt';
 import FetchApi from './FetchApi';
 import UseRefTutorial from './UseRefTutorial'
+import UseContextTutorial from './UseContextTutorial';
 
 function Week_three() {
   return (
@@ -22,9 +23,9 @@ function Week_three() {
         Day 3 - UseRef Tutorial
       </h2>
       <UseRefTutorial />
-{/* 
-      <h2 className="text-xl font-semibold mt-6 mb-2">Day 4 - Shopping Cart</h2>
-      <ShoppingCart /> */}
+
+      <h2 className="text-xl font-semibold mt-6 mb-2">Day 4 - Use Context Tutorial</h2>
+      <UseContextTutorial />
     </div>
   );
 }
