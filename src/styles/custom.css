@@ -1,0 +1,31 @@
+@layer utilities {
+  /* 🔹 General Button Style */
+  .btn {
+    @apply px-4 py-2 rounded-lg font-semibold transition;
+  }
+
+  /* 🔹 Primary Button */
+  .btn-primary {
+    @apply px-4 py-2 rounded-lg font-semibold transition bg-blue-600 text-white hover:bg-blue-700;
+  }
+
+  /* 🔹 Card Utility */
+  .card {
+    @apply bg-white shadow-lg p-6 rounded-xl hover:shadow-xl transition;
+  }
+
+  /* 🔹 Layout Wrapper */
+  .layout {
+    @apply flex min-h-screen bg-gray-100;
+  }
+
+  /* 🔹 Sidebar Styling */
+  .sidebar {
+    @apply w-64 bg-blue-900 text-white p-6 space-y-4;
+  }
+
+  /* 🔹 Navbar Styling */
+  .navbar {
+    @apply flex justify-between items-center bg-white p-4 shadow-md;
+  }
+}

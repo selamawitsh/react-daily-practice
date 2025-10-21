@@ -12,6 +12,10 @@ import UseEffectt from "./pages/UseEffectt.jsx";
 import FetchApi from "./pages/FetchApi.jsx";
 import UseRefTutorial from './pages/UseRefTutorial.jsx'
 import UseContextTutorial from "./pages/UseContextTutorial.jsx";
+import WeekFour from "./pages/WeekFour.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
+
+
 
 function App() {
   const [openWeek, setOpenWeek] = useState(null);
@@ -63,10 +67,24 @@ function App() {
         { id: 2, title: "Day 2- Fetch API", element: <FetchApi /> },
         { id: 3, title: "Day 3 - UseRef", element: <UseRefTutorial/> },
         { id: 4, title: "Day 4 - Use Context", element: <UseContextTutorial /> },
-        // { id: 5, title: "Day 5", element: <Week_one /> },
-        // { id: 6, title: "Day 6", element: <Week_one /> },
       ],
     },
+    {
+      id: "week4",
+      title: "Week Four",
+      page: <WeekFour />,
+      days: [
+        //   {
+        //   id: 1,
+        //   title: "Day 1 - UseEffect Hook",
+        //   element: <UseEffectt/>
+        // },
+        { id: 2, title: "Day 2- Folder Structure", element: <WeekFour /> },
+        // { id: 3, title: "Day 3 - UseRef", element: <UseRefTutorial/> },
+        // { id: 4, title: "Day 4 - Use Context", element: <UseContextTutorial /> },
+      ],
+    },
+    
   ];
 
   const toggleWeek = (weekId) => {
